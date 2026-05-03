@@ -155,11 +155,10 @@ Este proyecto busca replicar, a escala educativa, un sistema aeroespacial real, 
 
 ## 🚀 Autores / Desarrollo
 
-**Diego Otero** **Damián Rimoldi**
-Ingeniería en Electrónica – Docentes – Investigadores
+**Diego Otero**; **Damián Rimoldi**
+* Ingeniería en Electrónica – Docentes – Investigadores
 
 Quien escribe:
-
 Responsable del desarrollo de la **aviónica y sistema electrónico** del proyecto.
 
 ---
