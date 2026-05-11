@@ -3415,6 +3415,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "3,3V"
+		(exclude_from_sim no)
+		(at 71.882 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "38b5ec65-ca73-4e1a-8604-983ed22b6a84")
+	)
+	(text "Bornera de Alimentacion"
+		(exclude_from_sim no)
+		(at 178.562 108.204 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "515cd5e0-11c3-4b86-b079-bc1b05c5830c")
+	)
 	(junction
 		(at 74.93 109.22)
 		(diameter 0)
