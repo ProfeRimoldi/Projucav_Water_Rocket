@@ -37,13 +37,13 @@ void setup() {
   // 1. Inicializar LoRa
   LoRa.setPins(SS, RST, DI0);
   if (!LoRa.begin(433E6)) {
-    // Configuración de radio para asegurar enlace fuerte en banco de pruebas
-    LoRa.setSignalBandwidth(125E3);    // 125 kHz estándar
-    LoRa.setSpreadingFactor(7);        // SF7 por defecto (rápido)
-    LoRa.setTxPower(17);               // Aumentamos la potencia de transmisión a 17dBm
     Serial.println("¡Fallo crítico en la inicialización de LoRa!");
     while (1);
   }
+      // Configuración de radio para asegurar enlace fuerte en banco de pruebas
+  LoRa.setSignalBandwidth(125E3);    // 125 kHz estándar
+  LoRa.setSpreadingFactor(7);        // SF7 por defecto (rápido)
+  LoRa.setTxPower(17);               // Aumentamos la potencia de transmisión a 17dBm
   Serial.println("-> Transmisor LoRa listo.");
 
   // 2. Inicializar Sensores I2C
