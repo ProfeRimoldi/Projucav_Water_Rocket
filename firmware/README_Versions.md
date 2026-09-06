@@ -162,3 +162,6 @@ Al arrancar (fuera de modo simulación), el firmware promedia 20 muestras de pre
 
 File Name: EMISOR_apogeo_V3_Test
 Se bajó el filtro del sensor BMP6050
+
+File Name: EMISOR_apogeo_V6_lora_opcional
+Si no detecta el modulo LoRa inicia igual.
