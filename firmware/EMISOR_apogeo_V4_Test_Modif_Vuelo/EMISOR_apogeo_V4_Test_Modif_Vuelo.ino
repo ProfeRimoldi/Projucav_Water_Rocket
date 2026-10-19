@@ -27,7 +27,7 @@ const unsigned int BUZZER_DURACION_MS = 3000; // cuánto suena al detectar el ap
 // Servomotor (ej: liberación de paracaídas). Alimentarlo aparte del 3.3V
 // de la ESP32 si va a mover algo con resistencia real.
 #define SERVO_PIN 13
-const int ANGULO_REPOSO = 0;
+const int ANGULO_REPOSO = 180;
 const int ANGULO_APOGEO = 90;
 Servo servoRecuperacion;
 
